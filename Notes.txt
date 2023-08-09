@@ -1,0 +1,39 @@
+------------------------------------CUSTOM HOOK------------------------------------
+Estándarización de nombre:
+    useNombeCustomHook
+Son para abstraer lógica de estado de un componente
+Es una forma de poder dejar en un solo lugar código que se repite o podría llegar a
+repetirse en el proyecto. Haciendo la implementación más limpia y sencilla de mantener
+
+Ventajas
+    -Separar lógica de estado
+    -Fácil de probar
+
+------------------------------------HOC------------------------------------
+HOC = High Order Component
+
+Estándarización de nombre:
+    withNombreHOC
+Para reutilizar comportamiento de nuestro componente
+Recibe un componente, y se le inyecta nueva lógica, retornando el mismo componente
+con más información/lógica
+Además, dentro de la función, también tiene otra función, que es la que inyecta los
+nuevos datos y, es retornada
+
+Ventajas
+    -Evita duplicidad de código
+
+------------------------------------Extensible Styles------------------------------------
+Aplica solo para la parte de UI
+
+Ventajas
+    -Abiertos a su extención y cerrados a su modificación (uno de los principios SOLID, Open Closed)
+
+------------------------------------Compound Components------------------------------------
+Es un patrón de UI
+
+Patron que permite a la UI ser más flexible, en el sentido que hay una estructura que se repite muchas veces
+pero también debe ser flexible, por lo que es idea para estos escenarios
+
+Para poder crear CC, se recomienda
+    -Identificar el estado que se va a compartir en los comps para moverlo a un context

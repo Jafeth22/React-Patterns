@@ -3,6 +3,29 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+.env
+
+# IDEs
+.idea
+
+# NPM registry customizations
+.npmrc
+
+#eslint
+.eslintcache
+
 # User-specific files
 *.rsuser
 *.suo
