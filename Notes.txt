@@ -37,3 +37,8 @@ pero también debe ser flexible, por lo que es idea para estos escenarios
 
 Para poder crear CC, se recomienda
     -Identificar el estado que se va a compartir en los comps para moverlo a un context
+
+------------------------------------Render Props------------------------------------
+Utiliza los props de un comp para indicarle a ese comp como debe de hacer el render, este
+patrón nos da la ventaja de usar el princio de Open Closed 
+
