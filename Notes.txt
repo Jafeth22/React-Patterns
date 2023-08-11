@@ -40,7 +40,8 @@ Para poder crear CC, se recomienda
 
 ------------------------------------Render Props------------------------------------
 Utiliza los props de un comp para indicarle a ese comp como debe de hacer el render, este
-patrón nos da la ventaja de usar el princio de Open Closed 
+patrón nos da la ventaja de usar el princio de Open Closed, se le puede pasar funcionalidad
+por medio de los props
 
 ------------------------------------Control Props------------------------------------
 Un comp que maneje un estado interno, puede delegar el control al componente padre
@@ -48,3 +49,13 @@ Nos permite delegar el manejo de estado al componente padre
 
 Se ocupa cuando queramos manejar el componente cuyo estado interno va a ser modificado
 de manera diferente a como fue diseñado 
+
+------------------------------------Props Getters------------------------------------
+Posibilidad de utilizar un función para poder compartir props a otros comps
+
+Ventajas
+    -Nos provee acceso a los props o valores internos de un comp con la posibilidad de extenderlos o modificarlos
+    -Personalizar en como queremos mostrar los comp (enfocado en la parte de UI)
+
+Se aplica cuando se quiere proveer un acceso a los props de una manera centralizada o cuando se
+quiera extender los valores
