@@ -59,3 +59,7 @@ Ventajas
 
 Se aplica cuando se quiere proveer un acceso a los props de una manera centralizada o cuando se
 quiera extender los valores
+
+------------------------------------State Initializer------------------------------------
+Poder (opcional) inicializar el comp actual con el comp padre y que este le de un estado inicial
+
